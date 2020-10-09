@@ -1,1 +1,1 @@
-# RT3_Stereographic_Rendering
+# RT1_Spheres
