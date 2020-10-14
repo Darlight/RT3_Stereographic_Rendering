@@ -37,4 +37,7 @@ class color(object):
     self.b = int(max(min(self.b, 255), 0))
     return bytes([self.b, self.g, self.r])
 
+  def equals(self, other):
+    return (self.r==other.r and self.g==other.g and self.b==other.b)
+    
   __rmul__ = __mul__ 

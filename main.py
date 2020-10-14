@@ -20,7 +20,7 @@ raymap.light = Light(
     position=V3(20, 15, 30),
     intensity=1.4
 )
-raymap.currentbg_color = PURPLISH
+raymap.currentbg_color = BLACK
 print("Rendering now...")
 raymap.models = [
 
@@ -52,5 +52,5 @@ raymap.models = [
     Sphere(V3(-3.6, 2.1, -13.5), 0.2, eye),
     Sphere(V3(-2.8, 2.1, -13.5), 0.2, eye),
 ]
-raymap.finish()
+raymap.finish(esteogram=True)
 print("Bear plushies done!  \n")
