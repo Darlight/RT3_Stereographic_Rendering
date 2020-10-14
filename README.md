@@ -1,1 +1,1 @@
-# RT3_Spheres
+# RT3_Steeograpic_Rendering
